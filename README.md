@@ -31,7 +31,7 @@ Production AI-powered family archive platform\
 **Stack:** FastAPI · Next.js · TypeScript · MongoDB · AWS S3 · Clerk ·
 OpenAI · Vercel
 
-GitHub: https://github.com/jessenb16/Pack\
+GitHub: https://github.com/jessenb16/Pack
 Live: https://pack-wine.vercel.app/
 
 Built a secure, multi-tenant archive system where families can store
@@ -61,7 +61,7 @@ AI-driven technical interview practice platform\
 **Stack:** React · AWS Lambda · Cognito · API Gateway · RDS (PostgreSQL)
 · ECS Fargate · SQS · OpenAI
 
-GitHub: https://github.com/mr2447/coding_interviewer\
+GitHub: https://github.com/mr2447/coding_interviewer
 Live: https://d218nvq550m5aj.cloudfront.net/
 
 Built in a team of four. Designed a scalable, microservice-forward
