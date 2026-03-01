@@ -1,190 +1,79 @@
 # Jesse Noppe
 
-**Backend & AI Engineer building production-grade systems with a focus
-on retrieval-augmented generation, scalable cloud architecture, and
-responsible machine learning.**
+Backend & AI Engineer building production-grade systems with RAG,
+scalable cloud architecture, and responsible ML.
 
-M.S. Computer Science --- NYU Tandon (Dec 2025) --- GPA: 3.73
-
-I design and ship intelligent systems end-to-end: from distributed data
-pipelines and database design to AI orchestration, evaluation, and
-deployment.
+M.S. Computer Science --- NYU Tandon (GPA: 3.73)
 
 ------------------------------------------------------------------------
 
-## What I Build
+## 🚀 Featured Work
 
--   Multi-tenant AI-backed applications\
--   Retrieval-Augmented Generation (RAG) systems\
--   Serverless and microservice-based architectures on AWS\
--   Fairness and robustness evaluations for ML systems\
--   Distributed data workflows with Spark\
--   Systems-level tooling in C
+### 🧠 Pack --- AI-Powered Family Archive
 
-------------------------------------------------------------------------
-
-# Featured Projects
-
-## Pack
-
-Production AI-powered family archive platform\
-**Stack:** FastAPI · Next.js · TypeScript · MongoDB · AWS S3 · Clerk ·
-OpenAI · Vercel
-
-GitHub: https://github.com/jessenb16/Pack
+FastAPI · Next.js · MongoDB · AWS · OpenAI\
+GitHub: https://github.com/jessenb16/Pack\
 Live: https://pack-wine.vercel.app/
 
-Built a secure, multi-tenant archive system where families can store
-important documents and memories. Integrated an AI agent that retrieves
-documents or answers questions using vector search and RAG.
-
-**Key engineering components:** - Multi-tenant architecture with secure
-authentication (Clerk) - PDF text extraction + GPT-4o Vision
-transcription pipeline - Embedding generation and MongoDB vector
-search - Tool-using AI agent with guardrails to prevent rigid or unsafe
-behavior - AWS S3 for document storage - Lightsail + Vercel deployment -
-CI/CD via GitHub Actions
-
-**Hardest challenges:** - Designing AI tool usage flows that remain
-flexible but avoid hallucinated operations - Ensuring strong security
-guarantees without introducing high latency - Structuring embeddings and
-retrieval for accuracy and responsiveness
-
-Full ownership: architecture, backend, frontend, AI integration,
-deployment.
+-   Multi-tenant secure document archive with vector search\
+-   AI agent retrieves documents via RAG\
+-   Designed embedding pipeline + tool guardrails\
+-   Full-stack architecture + deployment ownership
 
 ------------------------------------------------------------------------
 
-## Coding Interviewer
+### 🏗 Coding Interviewer --- AI Practice Platform
 
-AI-driven technical interview practice platform\
-**Stack:** React · AWS Lambda · Cognito · API Gateway · RDS (PostgreSQL)
-· ECS Fargate · SQS · OpenAI
-
-GitHub: https://github.com/mr2447/coding_interviewer
+React · AWS Lambda · RDS · ECS · SQS · OpenAI\
+GitHub: https://github.com/mr2447/coding_interviewer\
 Live: https://d218nvq550m5aj.cloudfront.net/
 
-Built in a team of four. Designed a scalable, microservice-forward
-architecture that:
-
--   Selects coding questions based on user history\
--   Generates in-context hints based on current code\
--   Enforces guardrails to ensure AI selects valid problems
-
-**My contributions:** - Designed full system architecture and
-infrastructure diagram\
-- Database schema design and index optimization\
-- Wrote optimized SQL queries to support AI-driven question selection\
-- Implemented Lambda-based AI orchestration flow\
-- Helped shape UI/UX for structured practice sessions
-
-**Key engineering tradeoffs:** - Cold-start latency vs. serverless
-scalability\
-- Guardrails for AI validity vs. system flexibility\
-- Coordinating infrastructure across Lambda, ECS, RDS, and SQS
+-   Designed system architecture (Lambda, ECS, SQS, RDS)\
+-   Built AI orchestration flow with functional guardrails\
+-   Optimized SQL + indexing for intelligent question selection\
+-   Balanced cold-start latency vs. serverless scalability
 
 ------------------------------------------------------------------------
 
-## NYC Fire Risk Predictor
+### 🌆 NYC Fire Risk Predictor
 
-Distributed data + ML analysis at scale\
-**Stack:** PySpark · Scikit-Learn
-
+PySpark · Scikit-Learn\
 GitHub: https://github.com/Vialor/NYU-Big-Data-Final-Project
 
-Tested the hypothesis that heating complaints predict increased fire
-risk in NYC buildings.
-
--   Processed 26+ million records from NYC Open Data\
--   Joined 311 complaint data with fire incident data\
--   Structured temporal experiments (2-month window prediction)\
--   Built ML models and visualized prediction heatmaps
-
-**Major technical challenge:** Fire data was not building-level, while
-311 data was. Solved via: - Geocoding + spatial grouping into NYC
-regions\
-- Asynchronous API calls with semaphore-limited concurrency\
-- Reduced processing time by \~90%
+-   Processed 26M+ NYC Open Data records\
+-   Built ML prediction pipeline + heatmap visualizations\
+-   Reduced geocoding time by \~90% using async + semaphore-limited
+    concurrency
 
 ------------------------------------------------------------------------
 
-## Responsible AI Audit --- Santander Product Recommendation ADS
+### 🅿️ ParkEasy --- Parking Marketplace
 
-**Stack:** Fairlearn · SHAP · Scikit-Learn
+Django · PostgreSQL · AWS Elastic Beanstalk\
+GitHub: https://github.com/jessenb16/ParkEasy
 
-GitHub: https://github.com/jessenb16/Responsible-AI-Final-Project
-
-Technical audit of an automated banking product recommendation system
-based on the Kaggle Santander challenge.
-
-**Focus:** - Performance evaluation (MAP@7, Precision@7, Recall@7)\
-- Gender-based fairness analysis\
-- Demographic parity difference & selection rate\
-- Feature attribution via SHAP
-
-**Findings:** - Higher performance for female customers\
-- Demographic parity disparities for certain financial products\
-- Gender was a significant explanatory feature, with limited proxy
-correlations
+-   Built booking + recurring scheduling logic\
+-   Designed multi-parameter filtering system\
+-   Agile team of 6 (rotating Scrum Master)\
+-   Prioritized structural integrity to reduce technical debt
 
 ------------------------------------------------------------------------
 
-## Deep Learning Research
+## 🔬 ML & Systems
 
-### CIFAR-10 Classification (ResNet under 5M parameters)
-
-Achieved 96.69% test accuracy through systematic architecture and
-hyperparameter optimization.
-
-### Parameter-Efficient Fine-Tuning with LoRA (RoBERTa-base)
-
-Fine-tuned under a strict 1M parameter budget for AGNEWS classification.
-Achieved 91.41% validation accuracy in 1200 steps.
-
-### Adversarial Attacks on ResNet-34
-
-Evaluated FGSM, PGD, and patch-based PGD attacks. Demonstrated strong
-architecture-dependent robustness differences.
+-   96.69% CIFAR-10 accuracy (custom ResNet \<5M params)\
+-   LoRA fine-tuning under 1M parameter budget (RoBERTa)\
+-   Adversarial robustness experiments (FGSM, PGD)\
+-   xv6 `strace` implementation in C
 
 ------------------------------------------------------------------------
 
-## Systems Work
+## 🛠 Stack
 
-### xv6 Strace Implementation
-
-**Stack:** C · Docker
-
-Added system call tracing functionality to xv6 by modifying syscall and
-process handling logic while preserving system integrity.
-
-------------------------------------------------------------------------
-
-# Technical Stack
-
-**Languages**\
-Python · C++ · C · SQL · TypeScript · JavaScript · Julia
-
-**Backend & Frameworks**\
-FastAPI · Django · Flask · Next.js · React
-
-**Databases & Data**\
-PostgreSQL · MongoDB · MySQL · Apache Spark · Kafka · Hadoop
-
-**Cloud & DevOps**\
-AWS · Docker · Kubernetes · GitHub Actions · UNIX/Linux
-
-**AI & ML**\
-PyTorch · Scikit-Learn · OpenAI API · RAG · LangChain · LangGraph ·
-Fairlearn · SHAP · Virny
-
-------------------------------------------------------------------------
-
-# What I Care About
-
--   Building AI systems that operate reliably in production\
--   Designing data flows that scale\
--   Evaluating ML systems for fairness and robustness\
--   Making thoughtful architectural tradeoffs instead of chasing trends
+Python · C++ · C · SQL · TypeScript\
+FastAPI · Django · React · Next.js\
+AWS · Docker · Spark · PostgreSQL · MongoDB\
+PyTorch · OpenAI API · Fairlearn · SHAP
 
 ------------------------------------------------------------------------
 
