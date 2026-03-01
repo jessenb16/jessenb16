@@ -1,4 +1,4 @@
-# Jesse Noppe
+# Hi, I'm Jesse 👋
 
 **Backend & AI Engineer** | Building scalable cloud architecture, RAG systems, and responsible ML.
 
