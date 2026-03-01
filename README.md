@@ -1,81 +1,71 @@
 # Jesse Noppe
 
-Backend & AI Engineer building production-grade systems with RAG,
-scalable cloud architecture, and responsible ML.
+**Backend & AI Engineer** | Building scalable cloud architecture, RAG systems, and responsible ML.
 
-M.S. Computer Science --- NYU Tandon (GPA: 3.73)
+M.S. Computer Science --- NYU Tandon (Dec 2025) --- GPA: 3.73
 
-------------------------------------------------------------------------
+I am an engineer focused on the intersection of robust backend systems and applied Artificial Intelligence. My experience spans full-stack microservices, big data processing, and deep learning research, with a strong emphasis on architectural design, security, and mitigating technical debt.
 
-## 🚀 Featured Work
+---
 
-### 🧠 Pack --- AI-Powered Family Archive
+## 🛠️ Technical Stack
 
-FastAPI · Next.js · MongoDB · AWS · OpenAI\
-GitHub: https://github.com/jessenb16/Pack
-Live: https://pack-wine.vercel.app/
+* **Languages:** Python, C++, C, SQL, Julia, TypeScript, JavaScript, HTML, CSS
+* **Frameworks & Web:** FastAPI, Django, Next.js, React, Flask, Node.js
+* **Cloud & DevOps:** AWS (Lambda, ECS, SQS, RDS, S3, API Gateway), Docker, Kubernetes, Linux
+* **Databases & Big Data:** PostgreSQL, MongoDB, MySQL, Apache Spark, Hadoop, Kafka
+* **AI & Machine Learning:** PyTorch, Scikit-Learn, OpenAI API, RAG, LangChain, LangGraph
+* **AI Safety & Eval:** Fairlearn, SHAP, Virny, DataSynthesizer
 
--   Multi-tenant secure document archive with vector search\
--   AI agent retrieves documents via RAG\
--   Designed embedding pipeline + tool guardrails\
--   Full-stack architecture + deployment ownership
+---
 
-------------------------------------------------------------------------
+## 🚀 Featured Engineering Projects
 
-### 🏗 Coding Interviewer --- AI Practice Platform
+### 🧠 Pack — AI-Powered Family Archive
+**FastAPI · Next.js · TypeScript · MongoDB · AWS · OpenAI · Clerk** | [GitHub](https://github.com/jessenb16/Pack) | [Live Demo](https://pack-wine.vercel.app/)
 
-React · AWS Lambda · RDS · ECS · SQS · OpenAI\
-GitHub: https://github.com/mr2447/coding_interviewer
-Live: https://d218nvq550m5aj.cloudfront.net/
+* Engineered a secure, multi-tenant document archive with an integrated AI agent capable of answering complex queries via **RAG** and vector search.
+* Built the document processing pipeline using **GPT-4o Vision** for transcription and automated embedding generation.
+* **Engineering Focus:** Balanced stringent security requirements with low-latency retrieval, implementing strict tool-use guardrails to prevent LLM hallucinations.
 
--   Designed system architecture (Lambda, ECS, SQS, RDS)\
--   Built AI orchestration flow with functional guardrails\
--   Optimized SQL + indexing for intelligent question selection\
--   Balanced cold-start latency vs. serverless scalability
 
-------------------------------------------------------------------------
+
+### 🏗 Coding Interviewer — AI Practice Platform
+**React · Python · AWS (Lambda, ECS Fargate, SQS, RDS) · OpenAI** | [GitHub](https://github.com/mr2447/coding_interviewer) | [Live Demo](https://d218nvq550m5aj.cloudfront.net/)
+
+* Designed and implemented a highly scalable **microservices architecture** to deliver real-time, in-context technical interview hints.
+* Optimized complex **PostgreSQL queries and indices** to allow the AI to intelligently select questions based on user history.
+* **Engineering Focus:** Solved complex trade-offs between serverless cold-start latency and scalability; built functional guardrails for the AI orchestration flow.
+
+
 
 ### 🌆 NYC Fire Risk Predictor
+**PySpark · Scikit-Learn** | [GitHub](https://github.com/Vialor/NYU-Big-Data-Final-Project)
 
-PySpark · Scikit-Learn\
-GitHub: https://github.com/Vialor/NYU-Big-Data-Final-Project
+* Processed and analyzed **26M+ NYC Open Data records** using PySpark to evaluate the correlation between building heating complaints and fire risk.
+* **Engineering Focus:** Overcame massive geocoding bottlenecks by implementing **asynchronous API calls with semaphore-limited concurrency**, reducing processing time by 90%.
 
--   Processed 26M+ NYC Open Data records\
--   Built ML prediction pipeline + heatmap visualizations\
--   Reduced geocoding time by \~90% using async + semaphore-limited
-    concurrency
+### 🅿️ ParkEasy — Parking Marketplace
+**Django · PostgreSQL · AWS Elastic Beanstalk** | [GitHub](https://github.com/jessenb16/ParkEasy)
 
-------------------------------------------------------------------------
+* Developed robust booking logic and a multi-parameter filtering system for a peer-to-peer parking marketplace.
+* **Engineering Focus:** Acted as rotating Scrum Master for an Agile team of 6, prioritizing architectural structural integrity to minimize technical debt during rapid feature development.
 
-### 🅿️ ParkEasy --- Parking Marketplace
+---
 
-Django · PostgreSQL · AWS Elastic Beanstalk\
-GitHub: https://github.com/jessenb16/ParkEasy
+## 🔬 AI Research & Low-Level Systems
 
--   Built booking + recurring scheduling logic\
--   Designed multi-parameter filtering system\
--   Agile team of 6 (rotating Scrum Master)\
--   Prioritized structural integrity to reduce technical debt
+### AI Safety & Evaluation
+* **[Responsible AI Audit - Santander ADS](https://github.com/jessenb16/Responsible-AI-Final-Project):** Conducted a technical fairness audit on an automated banking recommendation system. Utilized **Fairlearn** to calculate demographic parity disparities and **SHAP** for feature attribution, identifying significant gender-based performance disparities.
 
-------------------------------------------------------------------------
+### Deep Learning Optimization
+* **[LoRA Fine-Tuning](https://github.com/jessenb16/Finetuning-with-LoRA):** Adapted a frozen RoBERTa-base model for text classification under a strict **1M trainable parameter budget** using Low-Rank Adaptation (PEFT), achieving 91.41% accuracy.
+* **[Adversarial Robustness](https://github.com/jessenb16/Adversarial_Attack):** Evaluated ResNet-34 vulnerability against **FGSM and PGD attacks**, analyzing cross-architecture transferability to DenseNet-121.
+* **[Custom ResNet Architecture](https://github.com/jessenb16/CIFAR_10_Classification):** Trained a highly optimized ResNet model with **<5M parameters** on CIFAR-10, maximizing data augmentation and scheduler efficiency to achieve 96.69% accuracy.
 
-## 🔬 ML & Systems
+### Operating Systems
+* **[XV6 System Tracing](https://github.com/mr2447/osFinalProject):** Implemented `strace` functionality directly into the **xv6 operating system kernel (C)** for debugging and analyzing system calls.
 
--   96.69% CIFAR-10 accuracy (custom ResNet \<5M params)\
--   LoRA fine-tuning under 1M parameter budget (RoBERTa)\
--   Adversarial robustness experiments (FGSM, PGD)\
--   xv6 `strace` implementation in C
+---
 
-------------------------------------------------------------------------
-
-## 🛠 Stack
-
-Python · C++ · C · SQL · TypeScript\
-FastAPI · Django · React · Next.js\
-AWS · Docker · Spark · PostgreSQL · MongoDB\
-PyTorch · OpenAI API · Fairlearn · SHAP
-
-------------------------------------------------------------------------
-
-📫 jn2934@nyu.edu\
-📍 New York
+📫 **Let's Connect:** [https://www.linkedin.com/in/jessenb/] | [jn2934@nyu.edu]
