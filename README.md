@@ -12,7 +12,7 @@ M.S. Computer Science --- NYU Tandon (GPA: 3.73)
 ### 🧠 Pack --- AI-Powered Family Archive
 
 FastAPI · Next.js · MongoDB · AWS · OpenAI\
-GitHub: https://github.com/jessenb16/Pack\
+GitHub: https://github.com/jessenb16/Pack
 Live: https://pack-wine.vercel.app/
 
 -   Multi-tenant secure document archive with vector search\
@@ -25,7 +25,7 @@ Live: https://pack-wine.vercel.app/
 ### 🏗 Coding Interviewer --- AI Practice Platform
 
 React · AWS Lambda · RDS · ECS · SQS · OpenAI\
-GitHub: https://github.com/mr2447/coding_interviewer\
+GitHub: https://github.com/mr2447/coding_interviewer
 Live: https://d218nvq550m5aj.cloudfront.net/
 
 -   Designed system architecture (Lambda, ECS, SQS, RDS)\
