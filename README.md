@@ -1,11 +1,12 @@
 # Hi, I'm Jesse 👋
 
-**Backend & AI Engineer** | Building scalable cloud architecture, RAG systems, and responsible ML.
+**Backend & AI Engineer** | Scalable cloud architecture, RAG systems, and responsible ML.
 
 M.S. Computer Science --- NYU Tandon (Dec 2025) --- GPA: 3.73
 
-I am an engineer focused on the intersection of robust backend systems and applied Artificial Intelligence. My experience spans full-stack microservices, big data processing, and deep learning research, with a strong emphasis on architectural design, security, and mitigating technical debt.
+I build backend systems and AI-powered applications at the intersection of robust architecture and real-world utility. My work spans full-stack microservices, big data pipelines, and deep learning — with a focus on systems that are production-ready, not just functional.
 
+📫 **Let's Connect:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jessenb/) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jn2934@nyu.edu)
 ---
 
 ## 🛠️ Technical Stack
@@ -68,4 +69,3 @@ I am an engineer focused on the intersection of robust backend systems and appli
 
 ---
 
-📫 **Let's Connect:** [https://www.linkedin.com/in/jessenb/] | [jn2934@nyu.edu]
