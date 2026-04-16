@@ -23,7 +23,7 @@ I build backend systems and AI-powered applications at the intersection of robus
 ## 🚀 Featured Engineering Projects
 
 ### 🧠 Pack — AI-Powered Family Archive
-**FastAPI · Next.js · TypeScript · MongoDB · AWS · OpenAI · Clerk** | [GitHub](https://github.com/jessenb16/Pack) | [Live Demo](https://pack-wine.vercel.app/)
+**FastAPI · Next.js · TypeScript · MongoDB · AWS · OpenAI · Clerk** | [GitHub](https://github.com/jessenb16/Pack) | [Live Demo](https://packarchive.com/)
 
 * Engineered a secure, multi-tenant document archive with an integrated AI agent capable of answering complex queries via **RAG** and vector search.
 * Built the document processing pipeline using **GPT-4o Vision** for transcription and automated embedding generation.
